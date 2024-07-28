@@ -9,6 +9,7 @@
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk",
+    "synth": "cdk synth",
     "bootstrap": "cdk bootstrap",
     "deploy": "cdk deploy"
   },
