@@ -13,8 +13,6 @@ canvas.classList.remove("hidden");
 const context = canvas.getContext("2d");
 
 const rafCb = () => {
-  console.log("raf");
-
   const imageData = context.createImageData(CANVAS_WIDTH_PX, CANVAS_HEIGHT_PX);
   const data = imageData.data;
   for (let i = 0; i < data.length; i += 4) {
