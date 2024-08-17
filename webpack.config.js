@@ -50,6 +50,12 @@ module.exports = (env, argv) => {
       }),
     ],
 
+    devServer: {
+      port: 8080,
+      hot: false,
+      liveReload: true,
+    },
+
     optimization: {
       minimize: isProduction,
       minimizer: [`...`, new CssMinimizerPlugin()],
